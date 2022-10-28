@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * main - check the code
  * Return: Always 0.
@@ -15,6 +14,7 @@ char r3[11];
 char *res;
 res = infinite_add(n, m, r, 100);
 if (res == 0)
+{
 printf("Error\n");
 }
 else
@@ -26,7 +26,7 @@ m = "1";
 res = infinite_add(n, m, r2, 10);
 if (res == 0)
 {
-printf("Error\n";
+printf("Error\n");
 }
 else
 {
